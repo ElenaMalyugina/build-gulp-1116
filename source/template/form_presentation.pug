@@ -1,0 +1,17 @@
+form.form.form__presentation(action='' method="POST")
+	h3.form__header Пожалуйста, заполните форму и нажмите кнопку 
+	div.form__garant Мы гарантируем сохранность и конфиденциальность Ваших персональных данных
+	div.formbody
+		input.input.name(name="name" value="name" id="name" type="text")
+		label.label.label__name(for="name") Как к Вам обращаться
+		input.input.company(name="company" value="company" id="company" type="text")
+		label.label.label__company(for="company") Название компании
+		input.input.post(name="post" id="post" value="post" type="text")
+		label.label(for="post") Должность
+		input.input.email(name="email" id="email" value="email" type="email")
+		label.label(for="email") Адрес электронной 
+		input.input.phone(name="phone" id="phone" value="phone" type="phone")
+		label.label(for="phone") Контактный телефон
+		input.input.time(name="time" id="time" value="time" type="text")
+		label.label(for="time") Предпочитаемое время (утро, день, вечер)
+	button.presentation(type="submit") Записаться на презентацию
